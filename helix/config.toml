@@ -1,0 +1,34 @@
+theme = "onedark"
+
+#mouse = true
+
+[editor]
+shell = ["nu", "-c"]
+popup-border = "all"
+mouse = true
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints= true
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.insert]
+ins = "normal_mode"
+
+[keys.normal]
+ins = "insert_mode"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+

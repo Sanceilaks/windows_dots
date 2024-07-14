@@ -1,0 +1,2 @@
+include = ["tampo.toml", "config.toml", "languages.toml"]
+
